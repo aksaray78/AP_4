@@ -18,6 +18,7 @@ int main() {
     cout <<"Masukkan IPK: "; cin >> ipk;
     cout <<"Masukkan jenis kelamin Anda (L/P): "; 
     jenis_kelamin = getche(); //hanya menerima satu karakter dan lanjut tanpa enter
+    //get character dan tampilkan karakter
     cout <<"\n"; //getcharacterandeco 
 
     cout <<"Nama: "<< nama <<endl;
@@ -37,5 +38,5 @@ int main() {
     // Selamat pagi, Aksa Sukma!
     cout << "Selamat " << waktu << ", " << nama;
 
-    getch();
+    getch();  //agar program tidak langsung selesai dan tidak menampilkan
 }
